@@ -82,7 +82,7 @@ function displayOutput(simulationResult, pages) {
             <tr>
                 <td>${index + 1}</td>
                 <td>${step.page}</td>
-                <td>${step.cacheState.join(', ')}</td>
+                <td>| ${step.cacheState.join(' | ')} |</td>
                 <td>${hitOrMiss}</td>
             </tr>
         `;
